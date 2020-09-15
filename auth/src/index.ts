@@ -3,7 +3,7 @@ import { app } from './app';
 
 // mongoose connection function
 const start = async () => {
-  console.log('Starting up...');
+  console.log('Starting up..');
 
   // env variable checks
   if (!process.env.JWT_KEY) {
