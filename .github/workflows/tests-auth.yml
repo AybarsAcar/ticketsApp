@@ -1,4 +1,4 @@
-name: tests
+name: tests-auth
 
 on: pull_request
 
@@ -8,7 +8,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd auth && npm install && npm run test:ci
-<<<<<<< HEAD
-=======
-     
->>>>>>> 5bb19efc0222392a4806f0968d07a3bce003538a
